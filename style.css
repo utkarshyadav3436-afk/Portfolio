@@ -65,3 +65,28 @@ li:hover{
     transition:0.3s;
     cursor:pointer;
 }
+nav{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    background:#007BFF;
+    color:white;
+    padding:15px 40px;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.menu a{
+    color:white;
+    text-decoration:none;
+    margin-left:20px;
+    font-weight:bold;
+}
+
+.menu a:hover{
+    text-decoration:underline;
+}
