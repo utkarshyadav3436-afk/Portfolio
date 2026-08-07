@@ -13,6 +13,10 @@ body{
     padding:20px;
     border-radius:10px;
     box-shadow:0 0 10px gray;
+    transition:0.3s;
+}
+.container:hover{
+    transform:translate(-5px);
 }
 .profile{
     width:160px;
@@ -46,6 +50,14 @@ button{
 }
 button:hover{
     background-color:#0056b3;
+}
+.resume-btn{
+    background:#28a745;
+    margin-top:10px;
+}
+
+.resume-btn:hover{
+    background:#1f7a34;
 }
 ul {
     list-style:none;
@@ -89,4 +101,22 @@ nav{
 
 .menu a:hover{
     text-decoration:underline;
+}
+nav{
+    position:fixed;
+    top:0;
+    z-index:100;
+}
+.tagline{
+    color:#777;
+    font-size:18px;
+    margin-bottom:20px;
+    font-style:italic;
+}
+footer{
+    background:#333;
+    color:white;
+    text-align:center;
+    padding:20px;
+    margin-top:40px;
 }
