@@ -13,11 +13,9 @@ body{
     padding:20px;
     border-radius:10px;
     box-shadow:0 0 10px gray;
-    transition:0.3s;
+   
 }
-.container:hover{
-    transform:translate(-5px);
-}
+
 .profile{
     width:160px;
     height:160px;
@@ -135,5 +133,16 @@ footer{
 }
 .project-card:hover{
     transform:translateY(-5px);
-    transition=0.3s;
+    transition:0.3s;
+}
+.contact-section{
+    background:#f8f8f8;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.15);
+}
+.contact-section a{
+    text-decoration:none;
+    margin:5px;
 }
