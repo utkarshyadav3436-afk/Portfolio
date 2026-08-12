@@ -9,3 +9,14 @@ console.log(course);
 const github = "https://github.com/utkarshyadav3436-afk";
 
 console.log(github);
+let githubBtn = 
+document.getElementById("githubBtn");
+
+githubBtn.addEventListener("click",function(){
+    console.log("GitHub button was clicked!");
+});
+let message = document.getElementById("message");
+
+githubBtn.addEventListener("click", function() {
+    message.textContent = "Thanks for visiting my portfolio!";
+});
