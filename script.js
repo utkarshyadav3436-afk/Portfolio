@@ -20,3 +20,9 @@ let message = document.getElementById("message");
 githubBtn.addEventListener("click", function() {
     message.textContent = "Thanks for visiting my portfolio!";
 });
+let isStudent = true;
+if (isStudent){
+    console.log("I am a B.Tech CSE student.");
+} else{
+    console.log("Student condition is false.");
+}
