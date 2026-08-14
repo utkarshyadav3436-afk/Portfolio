@@ -26,3 +26,32 @@ if (isStudent){
 } else{
     console.log("Student condition is false.");
 }
+let marks = 75;
+if(marks >= 60){
+    console.log("Good Result!");
+} else {
+    console.log("Keep practicing!");
+}
+function showWelcome(){
+    console.log("Welcome to my portfolio!");
+}
+showWelcome();
+function greetUser(name){
+    console.log("Hello, "+ name);
+}
+greetUser("Utkarsh");
+greetUser("Student");
+function addNumbers(a,b){
+    return a+b;
+}
+let result = addNumbers(10,20);
+
+console.log(result);
+function showLearningMessage(){
+    let message = 
+    document.getElementById("jsMessage");
+
+    message.textContent = "Currently Learning JavaScript";
+}
+
+showLearningMessage();
