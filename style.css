@@ -222,3 +222,15 @@ footer{
         
     }
 }
+.resume-message {
+    color:#28a745;
+    font-size:16px;
+    font-wieght:bold;
+    margin-top:10px;
+
+}
+.resume-btn:disabled {
+    background: #888;
+    cursor: not-allowed;
+    opacity: 0.7;
+}

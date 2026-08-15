@@ -55,3 +55,13 @@ function showLearningMessage(){
 }
 
 showLearningMessage();
+let resumeBtn = document.getElementById("resumeBtn");
+let resumeMessage = document.getElementById("resumeMessage");
+
+resumeBtn.addEventListener("click", function(event) {
+    event.preventDefault();
+
+    resumeMessage.textContent = "Resume download feature coming soon!";
+    resumeBtn.textContent = "Resume Coming Soon";
+    resumeBtn.disabled = true;
+});
