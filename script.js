@@ -65,3 +65,10 @@ resumeBtn.addEventListener("click", function(event) {
     resumeBtn.textContent = "Resume Coming Soon";
     resumeBtn.disabled = true;
 });
+let heading = document.querySelector("h1");
+
+heading.textContent = "Welcome to My Portfolio";
+function changeHeading(){
+    heading.textContent = "Hello, I'm Utkarsh Yadav";
+} 
+changeHeading();
