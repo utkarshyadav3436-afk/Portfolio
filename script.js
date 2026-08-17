@@ -72,3 +72,8 @@ function changeHeading(){
     heading.textContent = "Hello, I'm Utkarsh Yadav";
 } 
 changeHeading();
+let profileImage =
+document.querySelector(".profile");
+
+console.log(profileImage);
+profileImage.classList.add("profile-highlight");
