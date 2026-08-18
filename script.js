@@ -77,3 +77,10 @@ document.querySelector(".profile");
 
 console.log(profileImage);
 profileImage.classList.add("profile-highlight");
+//DAY 15
+let aboutSection =
+document.querySelector("#about");
+
+console.log(aboutSection);
+aboutSection.style.display ="none";
+aboutSection.style.display ="block";
