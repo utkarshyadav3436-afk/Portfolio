@@ -77,6 +77,8 @@ document.querySelector(".profile");
 
 console.log(profileImage);
 profileImage.classList.add("profile-highlight");
+profileImage.classList.remove("profile-highlight");//DAY 16
+profileImage.classList.add("profile-highlight");//DAY 16
 //DAY 15
 let aboutSection =
 document.querySelector("#about");
@@ -84,3 +86,5 @@ document.querySelector("#about");
 console.log(aboutSection);
 aboutSection.style.display ="none";
 aboutSection.style.display ="block";
+//DAY 16
+profileImage.classList.toggle("profile-highlight");
