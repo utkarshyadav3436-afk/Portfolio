@@ -88,3 +88,8 @@ aboutSection.style.display ="none";
 aboutSection.style.display ="block";
 //DAY 16
 profileImage.classList.toggle("profile-highlight");
+//DAY 17
+profileImage.classList.toggle("profile-highlight");
+let skills = document.querySelectorAll("li");
+console.log(skills);
+skills[0].textContent = "HTML & HTML5";
