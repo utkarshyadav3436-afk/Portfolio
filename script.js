@@ -14,7 +14,14 @@ document.getElementById("githubBtn");
 
 githubBtn.addEventListener("click",function(){
     console.log("GitHub button was clicked!");
+    //DAY 17
+    alert("You clicked the GitHub buttton");
 });
+
+githubBtn.textContent = "GitHub Profile"; // DAY 17
+githubBtn.style.backgroundColor = "#28a745"; // DAY 17
+githubBtn.style.fontSize = "20px";// DAY 17
+githubBtn.style.borderRadius = "20px";
 let message = document.getElementById("message");
 
 githubBtn.addEventListener("click", function() {
